@@ -1,0 +1,53 @@
+.nav1{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: fixed;
+ z-index: 1;
+ width:  100%;
+ margin-top: 40px;
+ 
+    .nav{
+        width: 70%;
+        
+        margin: auto;
+        min-height: 100px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+       
+        
+        .links{
+            display: flex;
+            gap: 70px;
+            a{
+                color: black;
+            }
+            :hover{
+                color: #FFB606;
+            }
+        }
+        .basliq{
+            display: flex;
+            max-width: 200px;
+            padding: 30px;
+        }
+        .elaqe{
+            i{
+                font-size: 23px;
+            }
+            gap: 15px;
+            background-color: #FFB606;
+            display: flex;
+            width: 300px;
+            justify-content: center;
+            font-weight: bold;
+            align-items: center;
+            color: white;
+    
+            height: 100px;
+        }
+    }
+}
